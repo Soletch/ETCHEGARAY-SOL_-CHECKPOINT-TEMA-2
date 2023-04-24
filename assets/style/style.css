@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 40vh;
+}
+
+.hynav {
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+#home {
+    background-color: bisque;
+    border-radius: 1.5rem;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+h1 {
+    margin-top: 0.5rem;
+}
+
+.share {
+    height: 32vh;
+    background-image: url(../images/head.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+main {
+    min-height: 50vh;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg_login {
+    min-height: 35vh;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    background-color: bisque;
+    border-radius: 1rem;
+}
+
+.regulation {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.img_blog {
+    width: 80%;
+}
+
+.login {
+    width: 30vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btt {
+    margin-top: 0.5rem;
+    width: 25%;
+}
+
+table {
+    margin-top: 1rem;
+    width: 30%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.5rem;
+
+}
+
+
+.posts {
+    min-height: 35vh;
+    width: 97vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+    background-color: bisque;
+    border-radius: 1rem;
+}
+
+.popular_posts {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img_post {
+    width: 85%;
+    display: flex;
+    align-self: center;
+}
+
+.post_card {
+    width: 15vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: 1rem;
+    background-color: white;
+    padding: 1.5rem;
+    font-size: smaller;
+}
+
+
+footer {
+    min-height: 5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-left: 0.5rem;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    .reg_login {
+        flex-direction: column;
+    }
+
+    .regulation {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem;
+
+    }
+
+    .img_blog {
+        width: 100%;
+    }
+
+    .popular_posts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post_card {
+        width: 30vw;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+        margin: 2rem;
+        background-color: white;
+        padding: 1.5rem;
+        font-size: smaller;
+
+    }
+
+
+    footer {
+        flex-direction: column;
+
+    }
+}
